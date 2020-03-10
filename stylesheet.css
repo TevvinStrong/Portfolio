@@ -1,0 +1,9 @@
+.container {
+    margin: 0 auto;
+    width: 700px;
+    max-width: 100%;
+}
+
+.container .header-section h1 {
+    font-family: "proxma-nova";
+}
