@@ -27,3 +27,29 @@ a:visited {
     margin: 85px auto 28px;
     cursor: pointer;
 }
+
+/*STYLES FOR P ELEMENT*/
+.container .header-section p {
+    letter-spacing: 0.6997991em;
+    width: auto;
+    color:rgb(168, 168, 168);
+    font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    height: 25px;
+    line-height: 25.2px;
+    margin-block-end: 28px;
+    margin-block-start: 0px;
+    margin-bottom: 28px;
+    margin-inline-end: 27px;
+    margin-inline-start: 27px;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: 0px;
+    max-width: 750px;
+    padding-left: 3px;
+    text-align: center;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+}
