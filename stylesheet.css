@@ -101,3 +101,15 @@ a:hover {
 }
 
 /*STYLES FOR SUMMARY SECTION*/
+.container .summary-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.container .summary-section img {
+    height:261.062px;
+    width: auto;
+    max-width: 392px;
+}
