@@ -1,9 +1,29 @@
+/*STYLES FOR CONTAINER ELEMENT*/
 .container {
     margin: 0 auto;
     width: 700px;
     max-width: 100%;
 }
 
+/*STYLES FOR HYPERLINK*/
+.container .header-section a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #111111;
+}
+
+/*STYLES FOR H1 ELEMENT*/
 .container .header-section h1 {
-    font-family: "proxma-nova";
+    font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin: 85px auto 28px;
+    cursor: pointer;
 }
