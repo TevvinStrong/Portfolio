@@ -106,6 +106,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 80px;
+    padding-bottom: 50px;
 }
 
 .container .summary-section img {
@@ -123,4 +124,20 @@ a:hover {
 .container .summary-section .summary-intro p {
     width: 400px;
     max-width: 100%;
+}
+
+/*STYLES FOR EDUCATION SECTION*/
+.container .education {
+    padding-top: 50px;
+    display: flex;
+}
+
+.container .education .education-info {
+
+}
+
+.container .education .lambda-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
