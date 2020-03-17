@@ -113,3 +113,14 @@ a:hover {
     width: auto;
     max-width: 392px;
 }
+
+.container .summary-section .summary-intro {
+    margin-left: 5em;
+    margin-top: 30px;
+    font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
+}
+
+.container .summary-section .summary-intro p {
+    width: 400px;
+    max-width: 100%;
+}
