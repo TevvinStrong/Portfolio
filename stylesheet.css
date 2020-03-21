@@ -162,3 +162,25 @@ a:hover {
     margin-top: 80px;
     margin-left: 50%;
 }
+
+/*STYLES FOR LANGUAGE SECTION*/
+.container .languagees-tools {
+
+}
+
+.container .languagees-tools h2 {
+    
+}
+
+.container .languages-tools .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container .languagees-tools .images img {
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+}
