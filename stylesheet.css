@@ -1,7 +1,7 @@
 /*STYLES FOR CONTAINER ELEMENT*/
 .container {
     margin: 0 auto;
-    width: 700px;
+    width: 900px;
     max-width: 100%;
 }
 
@@ -56,6 +56,8 @@ a:hover {
     text-align: center;
     text-size-adjust: 100%;
     text-transform: uppercase;
+    padding-right: 73px;
+    padding-left: 73px;;
 }
 
 /*STYLES FOR NAVBAR*/
@@ -106,7 +108,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-left: 4%;
 }
 
@@ -129,14 +131,13 @@ a:hover {
 
 /*STYLES FOR EDUCATION SECTION*/
 .container .education {
-    padding-top: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     display: flex;
 }
 
 .container .education .education-info {
     font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
-    padding-top: 50px;
-    padding-bottom: 50px;
     padding-left: 4%;
 }
 
@@ -159,28 +160,34 @@ a:hover {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-top: 80px;
-    margin-left: 50%;
+    margin-top: 30px;
+    margin-left: 90%;
 }
 
 /*STYLES FOR LANGUAGE SECTION*/
-.container .languagees-tools {
-
+.container .languages {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.container .languagees-tools h2 {
-    
+.container .languages h2 {
+    font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
+    padding-bottom: 50px;
+    padding-left: 4%;
 }
 
-.container .languages-tools .images {
+.container .languages .images {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
-.container .languagees-tools .images img {
-    max-width: 100%;
-    width: 100px;
-    height: 100px;
+.container .languages .images img {
+    width: 260px;
+    height: 260px;
+    padding: 97px 20px;
+    border-radius: 200%;
 }
