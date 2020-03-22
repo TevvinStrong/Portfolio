@@ -64,7 +64,7 @@ table {
 }
 
 a:visited {
-    color: #111111;
+    color: #111111 !important; /*TODO:Not best practice come back to this laster(workaround)*/
 }
 
 a:hover {
@@ -195,8 +195,9 @@ a:hover {
 }
 
 .container .education .education-info h2 {
-    line-height: 1em;
+    padding-bottom: 20px;
     font-weight: bolder;
+    font-size: 30px;
 }
 
 .container .education .education-info span {
