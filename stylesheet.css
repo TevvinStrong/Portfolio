@@ -133,7 +133,6 @@ a:hover {
     text-align: center;
     text-size-adjust: 100%;
     text-transform: uppercase;
-    
 }
 
 .container .nav-bar ul li {
@@ -262,4 +261,22 @@ a:hover {
     padding: 30px;
     cursor: pointer;
     width: 35px;
+}
+
+.footer a {
+    color: black;
+}
+
+/* Skills page */
+.container .items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.container .items ul {
+}
+
+.container .items ul li {
+    padding-left: 10%;
 }
