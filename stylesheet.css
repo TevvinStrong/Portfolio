@@ -269,14 +269,20 @@ a:hover {
 
 /* Skills page */
 .container .items {
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;*/
 }
 
 .container .items ul {
 }
 
 .container .items ul li {
-    padding-left: 10%;
+    /*padding-left: 10%;*/
+}
+
+.container .projects .liftquest img {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 1em;
 }
