@@ -158,10 +158,9 @@ a:hover {
 .container .summary-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 80px;
     padding-bottom: 100px;
-    padding-left: 4%;
 }
 
 .container .summary-section img {
@@ -170,14 +169,14 @@ a:hover {
     max-width: 392px;
 }
 
-.container .summary-section .summary-intro {
-    margin-left: 5em;
-    margin-top: 30px;
+.container .summary-section {
+    margin-top: 70px;
     font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
 }
 
-.container .summary-section .summary-intro p {
-    width: 400px;
+.container .summary-section p {
+    margin-top: 45px;
+    width: 200px;
     max-width: 100%;
 }
 
