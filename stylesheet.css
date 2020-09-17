@@ -242,6 +242,11 @@ a:hover {
 
 .container .languages .images img {
     padding: 97px 10px;
+    transition: transform .2s;
+}
+
+.container .languages .images img:hover {
+    transform: scale(1.2);
 }
 
 /*STYLER FOR FOOTER SECTION*/
