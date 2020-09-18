@@ -164,7 +164,7 @@ a:hover {
 }
 
 .container .summary-section img {
-    height:261.062px;
+    height: 261.062px;
     width: auto;
     max-width: 392px;
 }
@@ -175,9 +175,17 @@ a:hover {
 }
 
 .container .summary-section p {
-    margin-top: 45px;
-    width: 200px;
+    margin-top: 50px;
+    width: 350px;
+    line-height: 1.3;
+    letter-spacing: 6%;
     max-width: 100%;
+    text-align: left;
+}
+
+.container .summary-section p strong {
+    font-weight: 900;
+    font-size: 40px;
 }
 
 /*STYLES FOR EDUCATION SECTION*/
