@@ -243,6 +243,10 @@ a:hover {
     transition: transform .2s;
 }
 
+.container .languages .images img .underConstruction {
+    opacity: 0.5;
+}
+
 .container .languages .images img:hover {
     transform: scale(1.2);
 }
@@ -255,7 +259,7 @@ a:hover {
     justify-content: center;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: silver;
+    background-color: #3e3e42;
     padding: 70px;
 }
 
