@@ -158,27 +158,34 @@ a:hover {
 .container .summary-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 80px;
     padding-bottom: 100px;
-    padding-left: 4%;
 }
 
 .container .summary-section img {
-    height:261.062px;
+    height: 261.062px;
     width: auto;
     max-width: 392px;
 }
 
-.container .summary-section .summary-intro {
-    margin-left: 5em;
-    margin-top: 30px;
+.container .summary-section {
+    margin-top: 70px;
     font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
 }
 
-.container .summary-section .summary-intro p {
-    width: 400px;
+.container .summary-section p {
+    margin-top: 50px;
+    width: 350px;
+    line-height: 1.3;
+    letter-spacing: 6%;
     max-width: 100%;
+    text-align: left;
+}
+
+.container .summary-section p strong {
+    font-weight: 900;
+    font-size: 40px;
 }
 
 /*STYLES FOR EDUCATION SECTION*/
@@ -244,6 +251,10 @@ a:hover {
     transition: transform .2s;
 }
 
+.container .languages .images img .underConstruction {
+    opacity: 0.5;
+}
+
 .container .languages .images img:hover {
     transform: scale(1.2);
 }
@@ -256,7 +267,7 @@ a:hover {
     justify-content: center;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: silver;
+    background-color: #3e3e42;
     padding: 70px;
 }
 
