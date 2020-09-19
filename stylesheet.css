@@ -299,7 +299,7 @@ a:hover {
 
 /* My Work page */
 .container {
-    padding: 20px;;
+    padding: 40px;
     margin: 0 auto;
     width: 900px;
     max-width: 100%;
@@ -307,6 +307,8 @@ a:hover {
 
 .container h1 {
     padding-top: 60px;
+    padding-bottom: 20px;
+    margin-top: 90px;
     font-size: 35px;
     font-weight: 900;
     font-family: "Arial", "Helvetica", "sans-serif";
@@ -314,10 +316,13 @@ a:hover {
 
 
 .container .projects {
-    margin-top: 10px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+
+.container .info {
+
 }
 
 
@@ -328,12 +333,48 @@ a:hover {
 }
 
 .container .projects .liftquest {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    padding: 0px 0px 20px 0px;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.container .projects .liftquest h3 {
+    padding: 20px 20px 3px 20px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.container .projects .liftquest span {
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    letter-spacing: 1px;
+}
+
+.container .projects .liftquest .readmore {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .container .projects .liftquest a {
+    text-decoration: none;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    border: 1px solid #72CC49;
+    color: #ffffff !important;
+    background-color: #72CC49;
+    padding: 5px 40px 5px 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .container .projects .randomactsgenerator img {
@@ -343,7 +384,13 @@ a:hover {
 }
 
 .container .projects .randomactsgenerator {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    padding: 0px 0px 20px 0px;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.container .projects .randomactsgenerator a {
+    text-decoration: none;
+    
 }
