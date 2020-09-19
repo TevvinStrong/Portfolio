@@ -301,8 +301,12 @@ a:hover {
 .container {
     padding: 40px;
     margin: 0 auto;
-    width: 900px;
+    width: 850px;
     max-width: 100%;
+}
+
+.container .header-section h1 {
+    cursor: auto;
 }
 
 .container h1 {
@@ -312,6 +316,7 @@ a:hover {
     font-size: 35px;
     font-weight: 900;
     font-family: "Arial", "Helvetica", "sans-serif";
+    color: #3e3e42;
 }
 
 
@@ -345,6 +350,7 @@ a:hover {
     font-family: "Arial", "Helvetica", "sans-serif";
     letter-spacing: 1px;
     font-weight: 900;
+    color: #3e3e42;
 }
 
 .container .projects .liftquest span {
@@ -352,6 +358,7 @@ a:hover {
     padding: 20px;
     font-family: "Arial", "Helvetica", "sans-serif";
     letter-spacing: 1px;
+    color: #3e3e42;
 }
 
 .container .projects .liftquest .readmore {
@@ -380,7 +387,6 @@ a:hover {
 .container .projects .randomactsgenerator img {
     width: 400px;
     max-width: 100%;
-    /*border-radius: 1em;*/
 }
 
 .container .projects .randomactsgenerator {
@@ -388,9 +394,44 @@ a:hover {
     border-left: 1px solid #dddddd;
     border-right: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
+
+}
+
+.container .projects .randomactsgenerator h3 {
+    padding: 20px 20px 3px 20px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #3e3e42;
+}
+
+.container .projects .randomactsgenerator span {
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    letter-spacing: 1px;
+    color: #3e3e42;
+}
+
+.container .projects .randomactsgenerator .readmore {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .container .projects .randomactsgenerator a {
     text-decoration: none;
-    
+    font-family: "Arial", "Helvetica", "sans-serif";
+    border: 1px solid #72CC49;
+    color: #ffffff !important;
+    background-color: #72CC49;
+    padding: 5px 40px 5px 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
