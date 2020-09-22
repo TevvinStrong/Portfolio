@@ -110,14 +110,10 @@ a:hover {
     text-size-adjust: 100%;
     text-transform: uppercase;
     padding-right: 73px;
-    padding-left: 73px;;
+    padding-left: 73px;
 }
 
 /*STYLES FOR NAVBAR*/
-.container .nav-bar {
-
-}
-
 .container .nav-bar ul {
     display: flex;
     flex-direction: row;
@@ -475,4 +471,37 @@ a:hover {
 
 .container .projects .randomactsgenerator a:hover {
     background-color: #3e3e42;
+}
+
+/* About me page */
+
+.container .about {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 700px;
+    max-width: 100%;
+}
+
+.container .about img {
+    height: 406px;
+    width: 273px;
+    margin-left: 10%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.container .about p {
+    width: 278px;
+    line-height: 1.3;
+    padding-left:15px;
+    letter-spacing: 6%;
+    font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
+}
+
+.container .about p strong {
+    font-weight: 900;
+    font-size: 40px;
 }
