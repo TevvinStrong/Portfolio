@@ -496,7 +496,7 @@ a:hover {
 .container .about p {
     width: 278px;
     line-height: 1.3;
-    padding-left:15px;
+    padding-left: 15px;
     letter-spacing: 6%;
     font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
 }
@@ -504,4 +504,74 @@ a:hover {
 .container .about p strong {
     font-weight: 900;
     font-size: 40px;
+}
+
+/* Media Queries */
+
+@media all and (max-width: 320px) {
+    .container .header-section {
+        width: 200px;
+    }
+    .container .header-section a h1 {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: bolder;
+    }
+
+    .container .header-section a h1 strong {
+        letter-spacing: 10px;
+        margin-left: 23%;
+    }
+
+    .container .header-section p {
+        display: none;
+    }
+
+    .container .nav-bar {
+        width: 200px;
+        margin: 0px;
+    }
+
+    .container .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: rgb(66, 66, 66);
+        font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        height: 19px;
+        letter-spacing: 2px;
+        line-height: 19.5px;
+        text-align: center;
+        text-size-adjust: 100%;
+        text-transform: uppercase;
+        margin-left: 29%;
+    }
+
+    .container .nav-bar ul li {
+        padding-right: 0px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .container .summary-section {
+        margin-top: 80px;
+        font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container .summary-section img {
+        width: 200px;
+        height: 200px;
+        margin-left: 10%;
+    }
+
+    .container .summary-section p {
+        width: 200px;
+        margin-left: 15%;
+    }
 }
