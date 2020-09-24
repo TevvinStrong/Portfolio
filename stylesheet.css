@@ -574,4 +574,10 @@ a:hover {
         width: 200px;
         margin-left: 15%;
     }
+
+    .container .horizontal-border {
+        max-width: 100%;
+        width: 200px;
+        margin-left: 9%;
+    }
 }
