@@ -580,4 +580,24 @@ a:hover {
         width: 200px;
         margin-left: 9%;
     }
+
+    .container .education {
+        width: 200px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .container .education .education-info {
+        padding-top: 15px;
+        width: 200px;
+    }
+
+    .container .education .lambda-img img {
+        width: 150px;
+        height: 150px;
+        margin-top: 0px;
+    }
 }
